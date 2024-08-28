@@ -1,0 +1,90 @@
+{
+    "breadcrumbs.enabled": true,
+    "css.validate": false,
+    "editor.fontFamily": "Victor Mono, Dank Mono, Jetbrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.letterSpacing": 0.7,
+    "editor.lineHeight": 30,
+    "editor.fontWeight": 400,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.trimAutoWhitespace": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorStyle": "underline",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "storage.modifier",
+                    "storage.type.class.js",
+                    "storage.type.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["keyword.control.conditional", "keyword.operator"],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.indentSize": "tabSize",
+        "editor.insertSpaces": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": null
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": null
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "always"
+    },
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "eslint.validate": ["javascript", "typescript"],
+    "files.eol": "\n",
+    "explorer.decorations.badges": false,
+
+    "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "prettier.configPath": "./.prettierrc.cjs",
+    "javascript.format.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "cSpell.words": [
+        "commitlint",
+        "nextjs",
+        "Parens",
+        "reduxjs",
+        "Roboto",
+        "stylelint",
+        "svgr",
+        "tailwindcss",
+        "toastify",
+        "zipcode"
+    ]
+}

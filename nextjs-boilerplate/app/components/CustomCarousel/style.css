@@ -1,0 +1,50 @@
+.custom-carousel {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 870px) {
+  .carousel-container {
+    height: 240px;
+  }
+  .carousel {
+    flex-direction: column;
+  }
+}
+
+.carousel-item {
+  display: inline-block;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-dot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-dot-item {
+  display: inline-block;
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.carousel-dot:first-child {
+  margin-left: 0;
+}
+
+.carousel-dot:last-child {
+  margin-right: 0;
+}

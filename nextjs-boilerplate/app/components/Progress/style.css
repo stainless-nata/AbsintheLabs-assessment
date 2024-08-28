@@ -1,0 +1,21 @@
+.custom-dots {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.slick-dots li {
+  width: 384px;
+  margin-right: 15px;
+  margin-left: 0px;
+}
+
+.slick-slide {
+  margin-right: 20px;
+}
+
+.active-dot {
+}
+
+.slick-track {
+  width: 9999999px !important;
+}

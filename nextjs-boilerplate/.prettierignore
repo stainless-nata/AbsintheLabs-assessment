@@ -1,0 +1,11 @@
+.git
+node_modules
+coverage
+html
+dist
+.eslintignore
+.gitignore
+LICENSE
+build/
+package-lock.json
+yarn.lock
