@@ -29,12 +29,16 @@ const LastActivity = () => {
       <div className="overflow-auto">
         <table className="mt-[16px] w-full min-w-[1025px] rounded-[12px] text-sm rtl:text-right">
           <thead className="rounded-t-[12px] border-b border-black bg-dark-ele2 text-left text-text-secondary">
-            <th className="h-[44px] w-1/4 rounded-tl-[12px] px-6 py-3">
-              Activities
-            </th>
-            <th className="h-[44px] w-1/4 px-6 py-3">Points</th>
-            <th className="h-[44px] w-1/4 px-6 py-3">Date</th>
-            <th className="h-[44px] w-1/4 rounded-tr-[12px] px-6 py-3">TXID</th>
+            <tr>
+              <th className="h-[44px] w-1/4 rounded-tl-[12px] px-6 py-3">
+                Activities
+              </th>
+              <th className="h-[44px] w-1/4 px-6 py-3">Points</th>
+              <th className="h-[44px] w-1/4 px-6 py-3">Date</th>
+              <th className="h-[44px] w-1/4 rounded-tr-[12px] px-6 py-3">
+                TXID
+              </th>
+            </tr>
           </thead>
           <tbody>
             {activities.map((activity: ActivityItem, index) => {
